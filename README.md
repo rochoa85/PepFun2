@@ -140,7 +140,7 @@ pep.modelling_modeller(pepT, pepM, rangeHelix, rangeBeta, rangeCycle)
     
 A graphical example of both options is shown in the following figure:
 
-![Fig1](images/code_fig_1.png){width=30%}
+![Fig1](images/code_fig_1.png)
 
 ### 3. Modifications module
 
@@ -186,7 +186,7 @@ Capping.capping_peptide(pdb_file,peptide,mode='N-term')
 
 A graphical example for the filling and capping functionalities is shown in the following figure:
 
-![Fig2](images/code_fig_2.png){width=30%}
+![Fig2](images/code_fig_2.png)
 
 The final function is the mutation, which allow to replace an amino acid by a non-natural monomer (NNAA). For this is relevant to have a PDB file of the monomer that will be included in the structure, as well as other parameters:
 
@@ -268,7 +268,7 @@ print(pepStr.positions)
 
 A graphical example of the interactions for a peptide having a NNAA is shown in the following figure:
 
-![Fig3](images/code_fig_3.png){width=30%}
+![Fig3](images/code_fig_3.png)
 
 ### 5. Extra module
 
@@ -307,7 +307,7 @@ print("Predicted AA-based descriptors",descriptors)
 ```
 A graphical example of the alignment and the descriptors for modified peptides with NNAAs is shown in the following figure:
 
-![Fig4](images/code_fig_4.png){width=30%}
+![Fig4](images/code_fig_4.png)
 
 Finally an extra function is included to convert from SMILES to a peptide sequence based on the mapping of amino acid bases. For the example, we show how to generate the SMILES for the sequence 'PEPTIDE', and then how to use the SMILES to recover the initial sequence.
 
