@@ -8,7 +8,7 @@
 
 ## Purpose
 
-Here we present PepFun2.0, a package for the analysis of natural and modified peptides using a set of modules to study the sequence and structure of the molecules. The python package is composed of 5 main modules, to allow different tasks such as sequence alignments, prediction of properties, generation of conformers, modification of structures, detection protein-peptide interactions and extra functions to include in the analysis non-natural elements.
+Here we present PepFun2.0, a package for the analysis of natural and modified peptides using a set of modules to study the sequence and structure of the molecules. The python package is composed of five main modules to run different tasks such as sequence alignments, prediction of properties, generation of conformers, modification of structures, detection of protein-peptide interactions, and extra functions to include non-natural amino acids in the analysis.
 
 ## Required third-party tools
 
@@ -25,7 +25,7 @@ To activate the environment you can use the command:
 
 `conda activate pepfun2.0`
 
-**NOTE 1**: After installing Modeller, add the academic license key in the file suggested. The license can be acquired in the Modeller website: https://salilab.org/modeller/registration.html
+**NOTE 1**: After installing Modeller, add the academic license key in the suggested file. The license can be acquired at the Modeller website: https://salilab.org/modeller/registration.html
 
 Now in the environment, PepFun and the remaining packages can be easilly installed using the `setup.py` with:
 ```Bash
@@ -34,7 +34,7 @@ python setup.py install
 
 PepFun can be run using the modules directly in a python script. Examples are provided in the next section.
 
-**NOTE 2**: If a simple analysis is required using a command line interface, the original version of pepfun can be used with some of the functions included in this version: https://github.com/rochoa85/PepFun
+**NOTE 2**: If a simple analysis is required using a command line interface, the original version of PepFun can be used with some of the functions included in this version: https://github.com/rochoa85/PepFun
 
 ## How to run it
 
@@ -48,7 +48,7 @@ from pepfun.sequence import Sequence
 from pepfun.sequence import Library
 ```
 
-For this module the input is a peptide sequence in order to create the object:
+For this module the input is a peptide sequence, which is required to create the object:
 
 ```Python
 sequence = "KMGRLFR"
@@ -112,7 +112,7 @@ from pepfun.conformer import Conformer
 
 Then we can create the object using a sequence as input. 
 
-**NOTE 3:** Something important is to provide the path to the auxiliar path depending where it is located in your system after installation. The folder is included in the code.
+**NOTE 3:** Something important is to provide the path of the auxiliar folder depending where of its in the system. The folder is included in the code.
 
 ```Python
 # The auxiliar path folder can be changed depending on your system
@@ -144,7 +144,7 @@ A graphical example of both options is shown in the following figure:
 
 ### 3. Modifications module
 
-In this module different modification can be done on existing peptide structures. This can be done for the peptide alone or in complex with a protein target. First we import the modules:
+In this module different modifications can be done on existing peptide structures. This is possible for the peptide alone or in complex with a protein target. First we import the modules:
 
 ```Python
 from pepfun.modifications import Filling
@@ -152,7 +152,7 @@ from pepfun.modifications import Capping
 from pepfun.modifications import Mutation
 ```
 
-The first example is the filling of single peptide by adding flanking amino acids. For this it is required the peptide sequences (template and model) and the PDB code of the file having the peptide structure  (without the pdb extension). Please check the location of the PDB input file to avoid errors.
+The first example is the filling of a single peptide by adding flanking amino acids. For this, the module requires the peptide sequences (template and model) and the PDB code of the file having the peptide structure  (without the pdb extension). Please check the location of the PDB input file to avoid errors.
 
 ```Python
 # Provide the template sequence and the sequence with the new amino acids
@@ -174,7 +174,7 @@ code="peptide_complex"
 Filling.fill_peptide_complex(code,template,model)
 ```
 
-For capping a peptide, both the sequence and the PDB file (with extension) should be provided, together with the mode that allow capping any of the flanking parts, or both. By the default the N-term is capped with ACE, and the C-term with NME:
+For capping a peptide, both the sequence and the PDB file (with extension) should be provided, together with the modality that allows capping any of the flanking parts, or both. By default the N-term is capped with ACE, and the C-term with NME:
 
 ```Python
 # Peptide template that should be the same in the PDB file
@@ -188,7 +188,7 @@ A graphical example for the filling and capping functionalities is shown in the 
 
 ![Fig2](images/code_fig_2.png)
 
-The final function is the mutation, which allow to replace an amino acid by a non-natural monomer (NNAA). For this is relevant to have a PDB file of the monomer that will be included in the structure, as well as other parameters:
+The final function is the mutation, which allows the replacement of an amino acid by a non-natural monomer (NNAA). For this is relevant to have a PDB file of the monomer that will be included in the structure, as well as other parameters:
 
 ```Python
 # Path to the input structure
@@ -220,7 +220,7 @@ mut.assign_mutation()
 
 ### 4. Interactions module
 
-For this module, a protein-peptide complex can be provided to map different type of interactions. In addition, a function to map secondary structure elements of the peptide is included. First we import the module:
+For this module, a protein-peptide complex can be provided to detect different type of interactions. In addition, a function to map secondary structure elements of the peptide is included. First we import the module:
 
 ```Python
 from pepfun.interactions import Interactions
@@ -251,7 +251,7 @@ pepStr.get_secondary_structure()
 print("The predicted secondary structure is: {}".format(pepStr.total_dssp))
 ```
 
-Then we can detect the hydrogen bonds between the peptide and the protein, plot them using a graph-based figure and count too the number of contacts based on the defined threshold:
+Then we can detect the hydrogen bonds between the peptide and the protein, plot them using a graph-based figure and count the number of contacts based on the defined threshold:
 
 ```Python
 # Functions to detect the different types of interactions
@@ -272,7 +272,7 @@ A graphical example of the interactions for a peptide having a NNAA is shown in 
 
 ### 5. Extra module
 
-In the last module, different functions are included to align natural and modified peptides, generate amino acid-based descriptors for peptides with NNAAs, and a function to convert SMILES to peptides (available for now only for natural amino acids). First we import the modules:
+In the last module, different functions are included to align natural and modified peptides, generate amino acid-based descriptors for peptides with NNAAs, and a function to convert SMILES to peptides (available only for natural amino acids). First we import the modules:
 
 ```Python
 from pepfun.extra import Alignment
@@ -284,7 +284,7 @@ from pepfun.extra import readProperties
 from pepfun.extra import peptideFromSMILES
 ```
 
-We can generate alignments between natural and modified peptides. For the natural, a function to obtain a similarity value is provided:
+We can generate alignments between natural and modified peptides. For the natural, a function to obtain a similarity value is available:
 
 ```Python
 similarity = Alignment.similarity_pair("KMGRLFR", "KAGRSFR")
@@ -298,7 +298,7 @@ score,start,end=Alignment.score_modified("K-Aib-M-P","S-Aib-Iva-P",mode="weighte
 print("The score between peptides K-Aib-M-P and S-Aib-Iva-P is: {}".format(score))
 ```
 
-Also for modified peptides, a function to generate autocorrelation descriptors for machine learning models is provided. The sequence should be provided in BILN format, and a dictionary with a set of amino acid-based descriptors will be generated. For details please check the manuscript.
+Also for modified peptides, a function to generate autocorrelation descriptors for machine learning models is provided. The sequence should be in BILN format, and a dictionary with a set of amino acid-based descriptors will be generated. For details please check the manuscript.
 
 ```Python
 desc=pepDescriptors("K-Aib-Iva-P-L-C-D",generate_properties=False)
@@ -309,7 +309,7 @@ A graphical example of the alignment and the descriptors for modified peptides w
 
 ![Fig4](images/code_fig_4.png)
 
-Finally an extra function is included to convert from SMILES to a peptide sequence based on the mapping of amino acid bases. For the example, we show how to generate the SMILES for the sequence 'PEPTIDE', and then how to use the SMILES to recover the initial sequence.
+Finally an extra function is included to convert from SMILES to a peptide sequence based on the mapping of amino acid weights. For the example, we show how to generate the SMILES for the sequence 'PEPTIDE', and then how to use the SMILES to recover the initial sequence.
 
 ```Python
 # Input sequence and generation of SMILES using the Sequence module of PepFun
