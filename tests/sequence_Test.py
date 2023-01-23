@@ -99,19 +99,6 @@ class TestSequence(unittest.TestCase):
         """
         Test the properties predicted for some peptides
         """
-        # list_peps=['GAANDENY',
-        # 'EAPPSYAEV',
-        # 'SDVAFRGNLLD',
-        # 'RRNLKGLNLNLH',
-        # 'GVLKEYGV',
-        # 'MCLRMTAVM',
-        # 'EEFELLISNS',
-        # 'SQFDLSTRRLK',
-        # 'KLMFKTEGPDSD']
-        #
-        # for p in list_peps:
-        #     a,b,c,d=get_properties(p)
-        #     print(f"{a},{b},{c},{d}")
 
         self.assertEqual(get_properties('GAANDENY'), (-2.0008411239265196, -1.22, 4.0500284194946286, 852.8120000000001), )
         self.assertEqual(get_properties('EAPPSYAEV'), (-1.999412677161022, 1.1600000000000001, 4.0500284194946286, 962.0240000000001), )
