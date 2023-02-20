@@ -129,7 +129,8 @@ class Interactions:
         counter = 1
         for keys in list(dssp.keys()):
             if keys[0] == self.chain:
-                position = counter
+                #position = counter
+                position = int(keys[1][1])
                 self.positions[position]["dssp"] = dssp[keys][2]
                 self.positions[position]["asa"] = dssp[keys][3]
                 self.total_dssp = self.total_dssp + dssp[keys][2]
@@ -137,7 +138,7 @@ class Interactions:
 
     ############################################################################
 
-    def get_hydrogen_bonds(self):
+    def get_hydrogen_bonds(self, output=True):
         """
         Function to calculate hydrogen bonds with the other chains
 
@@ -211,17 +212,18 @@ class Interactions:
         self.hbonds_peptide=temporal_hbonds
         # Iterate over the peptide residues to show the hydrogen bonds
         self.number_hydrogen_bonds = 0
-        output_hydrogen_bonds = open("predicted_hbs_{}.txt".format(self.sequence), "w")
-        print("These are the hydrogen bonds detected:")
-        for residue in self.hbonds_peptide:
-            for partners in self.hbonds_peptide[residue]:
-                print("{} interacts with residue {}{} from chain {}".format(residue, partners[1], partners[2],
-                                                                            partners[0]))
-                output_hydrogen_bonds.write(
-                    "{} interacts with residue {}{} from chain {}\n".format(residue, partners[1], partners[2],
-                                                                            partners[0]))
-                self.number_hydrogen_bonds += 1
-        output_hydrogen_bonds.close()
+        if output:
+            output_hydrogen_bonds = open("predicted_hbs_{}.txt".format(self.sequence), "w")
+            print("These are the hydrogen bonds detected:")
+            for residue in self.hbonds_peptide:
+                for partners in self.hbonds_peptide[residue]:
+                    print("{} interacts with residue {}{} from chain {}".format(residue, partners[1], partners[2],
+                                                                                partners[0]))
+                    output_hydrogen_bonds.write(
+                        "{} interacts with residue {}{} from chain {}\n".format(residue, partners[1], partners[2],
+                                                                                partners[0]))
+                    self.number_hydrogen_bonds += 1
+            output_hydrogen_bonds.close()
 
     ############################################################################
 
