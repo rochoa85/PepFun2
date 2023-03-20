@@ -3,7 +3,6 @@
 ## Open protocols for peptide analysis
 
 * From publication "PepFun 2.0: improved protocols for the analysis of natural and modified peptides"
-* Bioinformatics, 2023
 * Author: Rodrigo Ochoa
 
 ## Purpose
@@ -336,7 +335,7 @@ python test.py
 If you use PepFun in your work, please cite the following papers:
 
 * 'PepFun: Open Source Protocols for Peptide-Related Computational Analysis', Molecules, 2021. Link: https://www.mdpi.com/1420-3049/26/6/1664
-* 'PepFun 2.0: improved protocols for the analysis of natural and modified peptides', Bioinformatics, 2023.
+* 'PepFun 2.0: improved protocols for the analysis of natural and modified peptides'.
 
 ## Support
 
