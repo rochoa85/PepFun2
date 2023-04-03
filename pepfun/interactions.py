@@ -22,6 +22,7 @@ __email__ = "rodrigo.ochoa@udea.edu.co, rodrigo.ochoa@boehringer-ingelheim.com"
 
 # External modules
 import numpy as np
+import os
 from igraph import *
 
 # BioPython
