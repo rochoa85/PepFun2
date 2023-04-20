@@ -17,7 +17,7 @@ The package relies on RDKit (https://rdkit.org/), BioPython (https://biopython.o
 
 We recommend to create a conda environment where the main packages can be installed using the following command:
 ```Bash
-conda create -c rdkit -c salilab -n pepfun2.0 rdkit biopython modeller pycairo
+conda create -c conda-forge -c salilab -n pepfun2.0 rdkit biopython modeller pycairo
 ```
 
 To activate the environment you can use the command:
