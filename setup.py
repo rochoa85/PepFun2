@@ -50,7 +50,7 @@ setuptools.setup(
         'sphinx-jsonschema'
     ],
     include_package_data=True,
-    packages=['pepfun'],
+    packages=['pepfun','pepfun.data'],
     package_data={'pepfun': ['data/*']}
 )
 

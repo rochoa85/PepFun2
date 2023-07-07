@@ -3,7 +3,6 @@
 ## Open protocols for peptide analysis
 
 * From publication "PepFun 2.0: improved protocols for the analysis of natural and modified peptides"
-* Bioinformatics, 2023
 * Author: Rodrigo Ochoa
 
 ## Purpose
@@ -18,7 +17,7 @@ The package relies on RDKit (https://rdkit.org/), BioPython (https://biopython.o
 
 We recommend to create a conda environment where the main packages can be installed using the following command:
 ```Bash
-conda create -c rdkit -c salilab -n pepfun2.0 rdkit biopython modeller pycairo
+conda create -c conda-forge -c salilab -n pepfun2.0 rdkit biopython modeller pycairo
 ```
 
 To activate the environment you can use the command:
@@ -340,7 +339,7 @@ python test.py
 If you use PepFun in your work, please cite the following papers:
 
 * 'PepFun: Open Source Protocols for Peptide-Related Computational Analysis', Molecules, 2021. Link: https://www.mdpi.com/1420-3049/26/6/1664
-* 'PepFun 2.0: improved protocols for the analysis of natural and modified peptides', Bioinformatics, 2023.
+* 'PepFun 2.0: improved protocols for the analysis of natural and modified peptides'.
 
 ## Support
 

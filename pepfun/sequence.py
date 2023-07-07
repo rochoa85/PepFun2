@@ -23,6 +23,7 @@ __email__ = "rodrigo.ochoa@udea.edu.co, rodrigo.ochoa@boehringer-ingelheim.com"
 # External modules
 import re
 import pickle
+import math
 from igraph import *
 from random import randint
 import itertools
