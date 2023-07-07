@@ -1,0 +1,75 @@
+REMARK    Conformer generated with Modeller
+REMARK    The conformer uses secondary structure restraints obtained with PSIPred.
+REMARK    The method is explained in the PepFun2 paper. Both Modeller and PSIPred can be used for academic purposes.
+EXPDTA    THEORETICAL MODEL, MODELLER 10.4 2023/07/07 14:52:07
+REMARK   6 MODELLER OBJECTIVE FUNCTION:        31.9822
+REMARK   6 MODELLER BEST TEMPLATE % SEQ ID: 100.000
+REMARK   6 SEQUENCE: template_fill
+REMARK   6 ALIGNMENT: alignment.ali
+REMARK   6 SCRIPT: run_conformer.py
+REMARK   6 TEMPLATE: template 1:A - 1:A MODELS 4:A - 4:A AT 100.0%
+ATOM      1  N   LYS A   1     -20.806   1.424   5.171  1.00115.75           N
+ATOM      2  CA  LYS A   1     -20.514   0.303   4.249  1.00115.75           C
+ATOM      3  CB  LYS A   1     -20.516   0.781   2.788  1.00115.75           C
+ATOM      4  CG  LYS A   1     -21.860   1.370   2.385  1.00115.75           C
+ATOM      5  CD  LYS A   1     -23.004   0.398   2.656  1.00115.75           C
+ATOM      6  CE  LYS A   1     -23.448  -0.389   1.427  1.00115.75           C
+ATOM      7  NZ  LYS A   1     -24.521   0.357   0.738  1.00115.75           N
+ATOM      8  C   LYS A   1     -19.179  -0.299   4.530  1.00115.75           C
+ATOM      9  O   LYS A   1     -18.398   0.232   5.319  1.00115.75           O
+ATOM     10  N   MET A   2     -18.900  -1.448   3.881  1.00279.83           N
+ATOM     11  CA  MET A   2     -17.663  -2.131   4.055  1.00279.83           C
+ATOM     12  CB  MET A   2     -17.639  -3.543   3.415  1.00279.83           C
+ATOM     13  CG  MET A   2     -17.928  -3.572   1.910  1.00279.83           C
+ATOM     14  SD  MET A   2     -17.794  -5.213   1.123  1.00279.83           S
+ATOM     15  CE  MET A   2     -16.185  -4.930   0.328  1.00279.83           C
+ATOM     16  C   MET A   2     -16.612  -1.294   3.410  1.00279.83           C
+ATOM     17  O   MET A   2     -16.884  -0.576   2.452  1.00279.83           O
+ATOM     18  N   GLY A   3     -15.378  -1.349   3.942  1.00136.03           N
+ATOM     19  CA  GLY A   3     -14.350  -0.522   3.380  1.00136.03           C
+ATOM     20  C   GLY A   3     -13.380  -1.386   2.653  1.00136.03           C
+ATOM     21  O   GLY A   3     -13.101  -2.517   3.048  1.00136.03           O
+ATOM     22  N   ARG A   4     -12.809  -0.848   1.556  1.00118.13           N
+ATOM     23  CA  ARG A   4     -11.874  -1.641   0.820  1.00118.13           C
+ATOM     24  CB  ARG A   4     -11.508  -1.124  -0.579  1.00118.13           C
+ATOM     25  CG  ARG A   4     -12.538  -1.445  -1.666  1.00118.13           C
+ATOM     26  CD  ARG A   4     -11.920  -1.577  -3.065  1.00118.13           C
+ATOM     27  NE  ARG A   4     -13.011  -1.866  -4.044  1.00118.13           N
+ATOM     28  CZ  ARG A   4     -13.418  -3.147  -4.290  1.00118.13           C
+ATOM     29  NH1 ARG A   4     -12.889  -4.188  -3.580  1.00118.13           N
+ATOM     30  NH2 ARG A   4     -14.353  -3.389  -5.256  1.00118.13           N
+ATOM     31  C   ARG A   4     -10.606  -1.692   1.582  1.00118.13           C
+ATOM     32  O   ARG A   4     -10.207  -0.744   2.257  1.00118.13           O
+ATOM     33  N   LEU A   5      -9.938  -2.847   1.489  1.00202.76           N
+ATOM     34  CA  LEU A   5      -8.689  -2.984   2.146  1.00202.76           C
+ATOM     35  CB  LEU A   5      -8.550  -4.347   2.851  1.00202.76           C
+ATOM     36  CG  LEU A   5      -9.732  -4.620   3.804  1.00202.76           C
+ATOM     37  CD1 LEU A   5      -9.567  -5.939   4.583  1.00202.76           C
+ATOM     38  CD2 LEU A   5     -10.012  -3.403   4.697  1.00202.76           C
+ATOM     39  C   LEU A   5      -7.698  -2.925   1.040  1.00202.76           C
+ATOM     40  O   LEU A   5      -7.934  -3.482  -0.030  1.00202.76           O
+ATOM     41  N   PHE A   6      -6.590  -2.192   1.232  1.00248.40           N
+ATOM     42  CA  PHE A   6      -5.632  -2.293   0.179  1.00248.40           C
+ATOM     43  CB  PHE A   6      -4.360  -1.444   0.259  1.00248.40           C
+ATOM     44  CG  PHE A   6      -4.663   0.006   0.219  1.00248.40           C
+ATOM     45  CD1 PHE A   6      -5.272   0.565  -0.878  1.00248.40           C
+ATOM     46  CD2 PHE A   6      -4.365   0.793   1.302  1.00248.40           C
+ATOM     47  CE1 PHE A   6      -5.545   1.914  -0.901  1.00248.40           C
+ATOM     48  CE2 PHE A   6      -4.632   2.139   1.282  1.00248.40           C
+ATOM     49  CZ  PHE A   6      -5.229   2.700   0.179  1.00248.40           C
+ATOM     50  C   PHE A   6      -5.117  -3.652   0.398  1.00248.40           C
+ATOM     51  O   PHE A   6      -5.253  -4.184   1.499  1.00248.40           O
+ATOM     52  N   ARG A   7      -4.534  -4.232  -0.660  1.00167.81           N
+ATOM     53  CA  ARG A   7      -3.988  -5.547  -0.618  1.00167.81           C
+ATOM     54  CB  ARG A   7      -3.120  -5.828  -1.855  1.00167.81           C
+ATOM     55  CG  ARG A   7      -2.941  -7.312  -2.153  1.00167.81           C
+ATOM     56  CD  ARG A   7      -4.260  -8.035  -2.430  1.00167.81           C
+ATOM     57  NE  ARG A   7      -4.813  -7.555  -3.727  1.00167.81           N
+ATOM     58  CZ  ARG A   7      -5.142  -8.484  -4.669  1.00167.81           C
+ATOM     59  NH1 ARG A   7      -4.826  -9.794  -4.448  1.00167.81           N
+ATOM     60  NH2 ARG A   7      -5.786  -8.113  -5.814  1.00167.81           N
+ATOM     61  C   ARG A   7      -3.108  -5.623   0.626  1.00167.81           C
+ATOM     62  O   ARG A   7      -2.212  -4.743   0.751  1.00167.81           O
+ATOM     63  OXT ARG A   7      -3.331  -6.525   1.475  1.00167.81           O
+TER      64      ARG A   7
+END

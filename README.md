@@ -69,7 +69,7 @@ print("Isoelectric Point: {}".format(pep.isoelectric_point))
 
 # RDKit descriptors
 pep.calculate_properties_from_mol()
-print("Molecular weight: {}".format(pep.mol_weight))
+print("Molecular weigth: {}".format(pep.mol_weight))
 ```
 
 The sequence used to create the object can be compared to others by similarity matrices or using SMILES representations:
@@ -323,6 +323,10 @@ df = readProperties()
 pep = peptideFromSMILES(smiles,df)
 print("The mapped sequence is {}".format(pep))
 ```
+## Examples
+
+A folder called `examples` include a set of scripts per module available in PepFun 2.0. The script contains the main functionalities with various peptide sequences as input, and generate output files in the same folder to check and compare the obtained results. 
+
 ## Tests
 
 A set of unit tests are available in the `tests` folder. These can be run separately per module by calling each test script, or all can be tested at the same time using the `test.py` file.

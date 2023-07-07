@@ -1,0 +1,176 @@
+REMARK    Conformer generated with RDKit
+REMARK    The conformer is created using a distance geometry approach.
+REMARK    The method is explained in the PepFun2 paper.
+COMPND    PEPTIDES
+ATOM      1  N   PRO A   1      10.500  -2.750  -2.029  1.00  0.00           N  
+ATOM      2  CA  PRO A   1       9.718  -2.655  -0.832  1.00  0.00           C  
+ATOM      3  C   PRO A   1       9.104  -1.307  -0.743  1.00  0.00           C  
+ATOM      4  O   PRO A   1       9.396  -0.480  -1.669  1.00  0.00           O  
+ATOM      5  CB  PRO A   1      10.623  -3.043   0.278  1.00  0.00           C  
+ATOM      6  CG  PRO A   1      12.020  -2.819  -0.226  1.00  0.00           C  
+ATOM      7  CD  PRO A   1      11.885  -2.752  -1.708  1.00  0.00           C  
+ATOM      8  N   GLU A   2       8.214  -0.904   0.298  1.00  0.00           N  
+ATOM      9  CA  GLU A   2       7.583   0.379   0.352  1.00  0.00           C  
+ATOM     10  C   GLU A   2       6.775   0.633  -0.859  1.00  0.00           C  
+ATOM     11  O   GLU A   2       6.910  -0.008  -1.939  1.00  0.00           O  
+ATOM     12  CB  GLU A   2       8.560   1.487   0.561  1.00  0.00           C  
+ATOM     13  CG  GLU A   2       9.268   1.466   1.865  1.00  0.00           C  
+ATOM     14  CD  GLU A   2      10.053   0.268   2.094  1.00  0.00           C  
+ATOM     15  OE1 GLU A   2      11.104   0.098   1.430  1.00  0.00           O  
+ATOM     16  OE2 GLU A   2       9.688  -0.700   3.023  1.00  0.00           O  
+ATOM     17  N   PRO A   3       5.780   1.647  -0.832  1.00  0.00           N  
+ATOM     18  CA  PRO A   3       5.379   2.439   0.287  1.00  0.00           C  
+ATOM     19  C   PRO A   3       4.187   1.838   0.974  1.00  0.00           C  
+ATOM     20  O   PRO A   3       4.385   1.146   1.987  1.00  0.00           O  
+ATOM     21  CB  PRO A   3       4.968   3.758  -0.345  1.00  0.00           C  
+ATOM     22  CG  PRO A   3       4.774   3.540  -1.807  1.00  0.00           C  
+ATOM     23  CD  PRO A   3       4.985   2.066  -2.003  1.00  0.00           C  
+ATOM     24  N   THR A   4       2.849   2.013   0.543  1.00  0.00           N  
+ATOM     25  CA  THR A   4       1.786   1.394   1.272  1.00  0.00           C  
+ATOM     26  C   THR A   4       0.705   0.825   0.423  1.00  0.00           C  
+ATOM     27  O   THR A   4       0.695   0.966  -0.835  1.00  0.00           O  
+ATOM     28  CB  THR A   4       1.152   2.422   2.229  1.00  0.00           C  
+ATOM     29  OG1 THR A   4       0.117   1.903   2.962  1.00  0.00           O  
+ATOM     30  CG2 THR A   4       0.687   3.658   1.501  1.00  0.00           C  
+ATOM     31  N   ILE A   5      -0.361   0.102   0.988  1.00  0.00           N  
+ATOM     32  CA  ILE A   5      -1.442  -0.433   0.075  1.00  0.00           C  
+ATOM     33  C   ILE A   5      -2.650   0.062   0.723  1.00  0.00           C  
+ATOM     34  O   ILE A   5      -2.649   0.378   1.971  1.00  0.00           O  
+ATOM     35  CB  ILE A   5      -1.204  -1.897  -0.005  1.00  0.00           C  
+ATOM     36  CG1 ILE A   5      -1.304  -2.580   1.354  1.00  0.00           C  
+ATOM     37  CG2 ILE A   5      -1.935  -2.630  -1.038  1.00  0.00           C  
+ATOM     38  CD1 ILE A   5      -3.423  -2.668  -0.974  1.00  0.00           C  
+ATOM     39  N   ASP A   6      -3.901   0.253   0.075  1.00  0.00           N  
+ATOM     40  CA  ASP A   6      -5.026   0.757   0.843  1.00  0.00           C  
+ATOM     41  C   ASP A   6      -6.310   0.122   0.615  1.00  0.00           C  
+ATOM     42  O   ASP A   6      -7.278   0.376   1.419  1.00  0.00           O  
+ATOM     43  CB  ASP A   6      -5.021   2.268   0.634  1.00  0.00           C  
+ATOM     44  CG  ASP A   6      -5.151   2.688  -0.756  1.00  0.00           C  
+ATOM     45  OD1 ASP A   6      -6.283   2.834  -1.260  1.00  0.00           O  
+ATOM     46  OD2 ASP A   6      -4.062   2.948  -1.590  1.00  0.00           O  
+ATOM     47  N   GLU A   7      -6.509  -0.762  -0.463  1.00  0.00           N  
+ATOM     48  CA  GLU A   7      -7.821  -1.446  -0.714  1.00  0.00           C  
+ATOM     49  C   GLU A   7      -8.823  -0.450  -0.888  1.00  0.00           C  
+ATOM     50  O   GLU A   7      -8.473   0.787  -0.706  1.00  0.00           O  
+ATOM     51  CB  GLU A   7      -7.852  -2.691   0.001  1.00  0.00           C  
+ATOM     52  CG  GLU A   7      -9.036  -3.580   0.003  1.00  0.00           C  
+ATOM     53  CD  GLU A   7     -10.215  -3.066   0.721  1.00  0.00           C  
+ATOM     54  OE1 GLU A   7     -11.402  -3.278   0.401  1.00  0.00           O  
+ATOM     55  OE2 GLU A   7      -9.999  -2.267   1.868  1.00  0.00           O  
+ATOM     56  N   SER A   8     -10.185  -0.553  -1.248  1.00  0.00           N  
+ATOM     57  CA  SER A   8     -11.007   0.591  -1.398  1.00  0.00           C  
+ATOM     58  C   SER A   8     -11.717   0.895  -0.124  1.00  0.00           C  
+ATOM     59  O   SER A   8     -12.491   1.877  -0.124  1.00  0.00           O  
+ATOM     60  CB  SER A   8     -12.043   0.547  -2.466  1.00  0.00           C  
+ATOM     61  OG  SER A   8     -11.539   0.350  -3.755  1.00  0.00           O  
+ATOM     62  OXT SER A   8     -11.578   0.180   1.035  1.00  0.00           O  
+HETATM   63  H1  UNL     1      10.281  -1.956  -2.639  1.00  0.00           H  
+HETATM   64  H2  UNL     1       8.856  -3.429  -0.917  1.00  0.00           H  
+HETATM   65  H3  UNL     1      10.423  -2.516   1.231  1.00  0.00           H  
+HETATM   66  H4  UNL     1      10.456  -4.157   0.445  1.00  0.00           H  
+HETATM   67  H5  UNL     1      12.427  -1.869   0.182  1.00  0.00           H  
+HETATM   68  H6  UNL     1      12.680  -3.680   0.062  1.00  0.00           H  
+HETATM   69  H7  UNL     1      12.399  -1.859  -2.119  1.00  0.00           H  
+HETATM   70  H8  UNL     1      12.409  -3.635  -2.168  1.00  0.00           H  
+HETATM   71  H9  UNL     1       8.051  -1.643   1.043  1.00  0.00           H  
+HETATM   72  H10 UNL     1       6.886   0.354   1.252  1.00  0.00           H  
+HETATM   73  H11 UNL     1       8.203   2.505   0.345  1.00  0.00           H  
+HETATM   74  H12 UNL     1       9.372   1.361  -0.265  1.00  0.00           H  
+HETATM   75  H13 UNL     1       9.944   2.363   1.971  1.00  0.00           H  
+HETATM   76  H14 UNL     1       8.490   1.566   2.683  1.00  0.00           H  
+HETATM   77  H15 UNL     1      10.390  -1.210   3.565  1.00  0.00           H  
+HETATM   78  H16 UNL     1       6.127   2.677   1.042  1.00  0.00           H  
+HETATM   79  H17 UNL     1       3.992   4.062   0.100  1.00  0.00           H  
+HETATM   80  H18 UNL     1       5.703   4.561  -0.113  1.00  0.00           H  
+HETATM   81  H19 UNL     1       3.720   3.816  -2.118  1.00  0.00           H  
+HETATM   82  H20 UNL     1       5.524   4.175  -2.337  1.00  0.00           H  
+HETATM   83  H21 UNL     1       4.010   1.564  -1.987  1.00  0.00           H  
+HETATM   84  H22 UNL     1       5.568   1.917  -2.935  1.00  0.00           H  
+HETATM   85  H23 UNL     1       2.667   2.583  -0.294  1.00  0.00           H  
+HETATM   86  H24 UNL     1       2.134   0.595   1.956  1.00  0.00           H  
+HETATM   87  H25 UNL     1       1.956   2.725   2.922  1.00  0.00           H  
+HETATM   88  H26 UNL     1      -0.013   2.498   3.743  1.00  0.00           H  
+HETATM   89  H27 UNL     1       0.431   3.512   0.453  1.00  0.00           H  
+HETATM   90  H28 UNL     1       1.470   4.465   1.529  1.00  0.00           H  
+HETATM   91  H29 UNL     1      -0.209   4.093   2.001  1.00  0.00           H  
+HETATM   92  H30 UNL     1      -0.479  -0.105   1.989  1.00  0.00           H  
+HETATM   93  H31 UNL     1      -1.317  -0.017  -0.937  1.00  0.00           H  
+HETATM   94  H32 UNL     1      -0.092  -2.002  -0.264  1.00  0.00           H  
+HETATM   95  H33 UNL     1      -2.304  -2.521   1.793  1.00  0.00           H  
+HETATM   96  H34 UNL     1      -0.479  -2.196   1.992  1.00  0.00           H  
+HETATM   97  H35 UNL     1      -1.103  -3.656   1.175  1.00  0.00           H  
+HETATM   98  H36 UNL     1      -1.704  -2.101  -2.036  1.00  0.00           H  
+HETATM   99  H37 UNL     1      -1.500  -3.650  -1.243  1.00  0.00           H  
+HETATM  100  H38 UNL     1      -3.871  -2.471   0.008  1.00  0.00           H  
+HETATM  101  H39 UNL     1      -3.901  -2.127  -1.812  1.00  0.00           H  
+HETATM  102  H40 UNL     1      -3.718  -3.759  -1.187  1.00  0.00           H  
+HETATM  103  H41 UNL     1      -4.064   0.074  -0.924  1.00  0.00           H  
+HETATM  104  H42 UNL     1      -4.770   0.660   1.947  1.00  0.00           H  
+HETATM  105  H43 UNL     1      -4.071   2.669   1.029  1.00  0.00           H  
+HETATM  106  H44 UNL     1      -5.868   2.689   1.215  1.00  0.00           H  
+HETATM  107  H45 UNL     1      -4.206   3.602  -2.345  1.00  0.00           H  
+HETATM  108  H46 UNL     1      -5.766  -0.985  -1.142  1.00  0.00           H  
+HETATM  109  H47 UNL     1      -7.640  -1.779  -1.850  1.00  0.00           H  
+HETATM  110  H48 UNL     1      -7.508  -2.628   1.082  1.00  0.00           H  
+HETATM  111  H49 UNL     1      -6.999  -3.344  -0.429  1.00  0.00           H  
+HETATM  112  H50 UNL     1      -9.402  -3.814  -1.043  1.00  0.00           H  
+HETATM  113  H51 UNL     1      -8.794  -4.603   0.421  1.00  0.00           H  
+HETATM  114  H52 UNL     1     -10.736  -2.182   2.578  1.00  0.00           H  
+HETATM  115  H53 UNL     1     -10.571  -1.471  -1.434  1.00  0.00           H  
+HETATM  116  H54 UNL     1     -10.330   1.484  -1.621  1.00  0.00           H  
+HETATM  117  H55 UNL     1     -12.897  -0.117  -2.236  1.00  0.00           H  
+HETATM  118  H56 UNL     1     -12.491   1.588  -2.497  1.00  0.00           H  
+HETATM  119  H57 UNL     1     -10.674   0.796  -3.882  1.00  0.00           H  
+HETATM  120  H58 UNL     1     -12.254   0.286   1.806  1.00  0.00           H  
+CONECT    1    2    7   63
+CONECT    2    3    5   64
+CONECT    3    4    4    8
+CONECT    5    6   65   66
+CONECT    6    7   67   68
+CONECT    7   69   70
+CONECT    8    9   71
+CONECT    9   10   12   72
+CONECT   10   11   11   17
+CONECT   12   13   73   74
+CONECT   13   14   75   76
+CONECT   14   15   15   16
+CONECT   16   77
+CONECT   17   18   23
+CONECT   18   19   21   78
+CONECT   19   20   20   24
+CONECT   21   22   79   80
+CONECT   22   23   81   82
+CONECT   23   83   84
+CONECT   24   25   85
+CONECT   25   26   28   86
+CONECT   26   27   27   31
+CONECT   28   29   30   87
+CONECT   29   88
+CONECT   30   89   90   91
+CONECT   31   32   92
+CONECT   32   33   35   93
+CONECT   33   34   34   39
+CONECT   35   36   37   94
+CONECT   36   95   96   97
+CONECT   37   38   98   99
+CONECT   38  100  101  102
+CONECT   39   40  103
+CONECT   40   41   43  104
+CONECT   41   42   42   47
+CONECT   43   44  105  106
+CONECT   44   45   45   46
+CONECT   46  107
+CONECT   47   48  108
+CONECT   48   49   51  109
+CONECT   49   50   50   56
+CONECT   51   52  110  111
+CONECT   52   53  112  113
+CONECT   53   54   54   55
+CONECT   55  114
+CONECT   56   57  115
+CONECT   57   58   60  116
+CONECT   58   59   59   62
+CONECT   60   61  117  118
+CONECT   61  119
+CONECT   62  120
+END
